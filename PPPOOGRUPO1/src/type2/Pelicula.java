@@ -1,23 +1,13 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package type2;
 
 /**
  *
- * @author jperesse
+ * @author sebas
  */
-
-package type2;
-
-public class Pelicula extends contenidoMultimedia {
-    String director;
+public class Pelicula {
     
-    
-        public Pelicula(String titulo, int duracionMinutos, int anioLanzamiento, String director) {
-            super(titulo, duracionMinutos, anioLanzamiento);
-            this.director = director;
-    }
-
-    @Override
-    void iniciarReproduccion() {
-        System.out.println("Cargando video y ajustando subtítulos para la película...");
-    }
 }

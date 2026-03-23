@@ -1,3 +1,4 @@
+
 package type2;
 
 public abstract class contenidoMultimedia {
