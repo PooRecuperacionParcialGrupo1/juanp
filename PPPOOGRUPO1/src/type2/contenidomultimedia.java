@@ -1,4 +1,3 @@
-
 package type2;
 
 public abstract class contenidoMultimedia {
@@ -18,6 +17,3 @@ public abstract class contenidoMultimedia {
         return titulo + " (" + anioLanzamiento + ")";
     }
 }
-
-
-
