@@ -8,19 +8,6 @@ package type2;
  *
  * @author sebas
  */
-public abstract class  contenidomultimedia {
-    string titulo:
-    int aniolamzamiento:
-    int duracionminutos:
-   
+public class contenidoMultimedia {
     
-    
-    
-    abstract void iniciarReproduccion();
-    string obtenerresumen(){
-      
-        return "anio lanzamiento" + aniolamzamiento  
-                
-    }
 }
-    
