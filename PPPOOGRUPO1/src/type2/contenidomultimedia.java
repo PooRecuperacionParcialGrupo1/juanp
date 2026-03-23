@@ -18,10 +18,9 @@ public abstract class  contenidomultimedia {
     
     abstract void iniciarReproduccion();
     string obtenerresumen(){
-        
-        
+      
         return "anio lanzamiento" + aniolamzamiento  
                 
-    }hhghftyffrty
+    }
 }
     
