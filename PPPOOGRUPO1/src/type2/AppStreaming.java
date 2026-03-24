@@ -1,4 +1,7 @@
 
+import type2.contenidoMultimedia;
+
+
 public class AppStreaming {
     public static void main(String[] args) {
         Pelicula p1 = new Pelicula("El Padrino", 175, 1972, "Francis Ford Coppola");
