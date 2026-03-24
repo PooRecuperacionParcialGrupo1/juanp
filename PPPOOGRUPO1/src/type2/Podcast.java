@@ -1,3 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/*
+ *
+ * @author jperesse
+ */
+
 package type2;
 
 public class Podcast extends contenidoMultimedia {
@@ -13,5 +23,3 @@ public class Podcast extends contenidoMultimedia {
         System.out.println("Conectando al servidor de audio y preparando el episodio del podcast...");
     }
 }
-
-

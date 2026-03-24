@@ -20,11 +20,11 @@ public class Pelicula extends contenidoMultimedia {
 
     @Override
     void iniciarReproduccion() {
-        System.out.println("Cargando video y ajustando subtítulos para la película...");
+        System.out.println("Cargando video y ajustando subtitulos para la pelicula...");
     }
 
     void configurarVisualizacion() {
-        System.out.println("Reproduciendo en calidad Automática, idioma original");
+        System.out.println("Reproduciendo en calidad Automatica, idioma original");
     }
 
     void configurarVisualizacion(String calidad) {
@@ -32,8 +32,7 @@ public class Pelicula extends contenidoMultimedia {
     }
 
     void configurarVisualizacion(String calidad, String idiomaSubtitulos) {
-        System.out.println("Reproduciendo en calidad " + calidad + " con subtítulos en " + idiomaSubtitulos);
+        System.out.println("Reproduciendo en calidad " + calidad + " con subtitulos en " + idiomaSubtitulos);
     }
 }
-
 
