@@ -15,7 +15,9 @@ public class AppStreaming {
         Pelicula p1 = new Pelicula("Interestelar", 169, 2014, "Christopher Nolan");
         Pelicula p2 = new Pelicula("Como entrenar a tu dragon 3", 104, 2019, "Dean DeBlois");
         Podcast pod1 = new Podcast("Podcas Willyrex", 45, 2021, "Daniel Alarcon");
-        Podcast pod2 = new Podcast("Podcast de Jordy Wild", 60, 2022, "Madeleine Wattenbarger");;
+        Podcast pod2 = new Podcast("Podcast de Jordy Wild", 60, 2022, "Madeleine Wattenbarger");
+        
+        
 
         contenidoMultimedia[] lista = {p1, p2, pod1, pod2};
 
@@ -29,7 +31,7 @@ public class AppStreaming {
         System.out.println("=== Configuracion de visualizacion (Peliculas) ===");
         Pelicula[] pelis = {p1, p2};
         for (Pelicula p : pelis) {
-            System.out.println("Pelicula: " + p.titulo);
+            System.out.println("Pelicula: " + p.getTitulo());
             p.configurarVisualizacion();
             p.configurarVisualizacion("4K");
             p.configurarVisualizacion("1080p", "Espanol");

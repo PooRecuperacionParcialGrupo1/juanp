@@ -13,6 +13,14 @@ package type2;
 public class Pelicula extends contenidoMultimedia {
     String director;
 
+    public String getDirector() {
+        return director;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
     public Pelicula(String titulo, int duracionMinutos, int anioLanzamiento, String director) {
         super(titulo, duracionMinutos, anioLanzamiento);
         this.director = director;

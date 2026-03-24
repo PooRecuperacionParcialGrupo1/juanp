@@ -3,10 +3,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-/*
+
+/**
  *
- * @author jperesse
+ * @author sebas
  */
+
 
 
 package type2;
@@ -15,6 +17,30 @@ public abstract class contenidoMultimedia {
     String titulo;
     int duracionMinutos;
     int anioLanzamiento;
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public int getDuracionMinutos() {
+        return duracionMinutos;
+    }
+
+    public void setDuracionMinutos(int duracionMinutos) {
+        this.duracionMinutos = duracionMinutos;
+    }
+
+    public int getAnioLanzamiento() {
+        return anioLanzamiento;
+    }
+
+    public void setAnioLanzamiento(int anioLanzamiento) {
+        this.anioLanzamiento = anioLanzamiento;
+    }
 
     public contenidoMultimedia(String titulo, int duracionMinutos, int anioLanzamiento) {
         this.titulo = titulo;
@@ -28,4 +54,7 @@ public abstract class contenidoMultimedia {
         return titulo + " (" + anioLanzamiento + ")";
     }
 }
+
+
+
 
