@@ -13,6 +13,15 @@ package type2;
 public class Podcast extends contenidoMultimedia {
     String anfitrion;
 
+    public String getAnfitrion() {
+        return anfitrion;
+    }
+
+    public void setAnfitrion(String anfitrion) {
+        this.anfitrion = anfitrion;
+    }
+
+
     public Podcast(String titulo, int duracionMinutos, int anioLanzamiento, String anfitrion) {
         super(titulo, duracionMinutos, anioLanzamiento);
         this.anfitrion = anfitrion;
